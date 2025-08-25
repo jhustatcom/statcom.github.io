@@ -1,4 +1,4 @@
 - name: GitHub
   url: https://github.com/jhustatcom
-  class: fa-brands fa-github
+  class: fab fa-github
   title: Github repo for site.

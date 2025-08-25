@@ -38,7 +38,7 @@ improve_content: https://github.com/jhustatcom/jhustatcom.github.io/edit/main/
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://jhustatcom.github.io/jhustatcom/images/'
+urlimg: 'https://jhustatcom.github.io/images/'
 
 # Logo size is 600x80 pixels
 logo: "statcom_5.png"

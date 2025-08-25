@@ -138,3 +138,58 @@ main#main,
   text-indent: -9999px;
   line-height: 0;
 }
+
+/* Base styles for footer icons (add these ABOVE your @media block) */
+.social-icons .social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.social-icons .social-link i {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;  /* FA Brands uses 400 */
+  font-family:
+    "Font Awesome 6 Brands",
+    "Font Awesome 5 Brands",
+    "Font Awesome 5 Free",
+    "FontAwesome" !important;
+}
+
+/* --- Fix social icons on small screens --- */
+@media (max-width: 640px) {
+  /* Make sure the list actually shows items inline */
+  .social-icons li { display: inline-block; }
+
+  /* Give the link a fixed tap area */
+  .social-icons .social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;  /* adjust if you like */
+    height: 36px;
+  }
+
+  /* Force the Font Awesome brand font + size back on mobile */
+  .social-icons .social-link i {
+    font-size: 20px;      /* if it was inheriting 0 */
+    line-height: 1;
+    font-weight: 400;
+    font-family:
+      "Font Awesome 6 Brands",
+      "Font Awesome 5 Brands",
+      "Font Awesome 5 Free",
+      "FontAwesome" !important;
+  }
+
+  /* Ensure the pseudo-element actually paints */
+  .social-icons .social-link i::before {
+    display: inline-block;
+  }
+}
+
