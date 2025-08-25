@@ -1,0 +1,41 @@
+<footer id="footer-content" class="bg-grau">
+  <div id="footer">
+    <div class="row align-middle">
+      <!-- Left side: About text + socials -->
+      <div class="medium-8 columns">
+        <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
+        <p class="shadow-black">
+          {{ site.description }}
+          <a href="{{ site.url }}{{ site.baseurl }}/">{{ site.data.language.more }}</a>
+        </p>
+
+        <ul class="inline-list social-icons">
+          {% for social_item in site.data.socialmedia %}
+            <li>
+              <a href="{{ social_item.url }}" target="_blank"
+                 class="{{ social_item.class }}" title="{{ social_item.title }}"></a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- Right side: logo -->
+      <div class="medium-4 columns text-right">
+        <img src="{{ site.baseurl }}/images/footer_logo.png"
+             alt="Footer logo"
+             class="footer-logo">
+      </div>
+    </div>
+
+    <!-- Bottom centered credits -->
+    <div class="row">
+      <div class="small-12 columns text-center">
+        <div class="credits">
+          {{ site.credits }}
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+

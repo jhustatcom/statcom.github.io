@@ -1,0 +1,54 @@
+presidents:
+  - name: "Marina Hernandez"
+    degree: "PhD Student, 2021-2022"
+    role: "Co-President"
+    image: "/assets/img/team/president1.jpg"
+  - name: "Cassie Chou"
+    degree: "ScM Student, 2024-2025"
+    role: "Co-President"
+    image: "/assets/img/team/president2.jpg"
+
+project_chairs:
+  - name: "Fernanda Montoya"
+    degree: "PhD Student, 2024-2025"
+    role: "Project Chair"
+    image: "/assets/img/team/chair1.jpg"
+  - name: "Bella Satpathy-Horton"
+    degree: "PhD Student, 2024-2025"
+    role: "Project Chair"
+    image: "/assets/img/team/chair2.jpg"
+  - name: "Dhruthi Mandavilli"
+    degree: "ScM Student, 2024-2025"
+    role: "Project Chair"
+    image: "/assets/img/team/chair3.jpg"
+
+internal_comms:
+  - name: "Emily Potts"
+    degree: "PhD Student, 2024-2025"
+    role: "Internal Communications"
+    image: "/assets/img/team/internal1.jpg"
+  - name: "Cathy Zhang"
+    degree: "ScM Student, 2024-2025"
+    role: "Internal Communications"
+    image: "/assets/img/team/internal2.jpg"
+
+external_comms:
+  - name: "Amia Graye"
+    degree: "ScM Student, 2024-2025"
+    role: "External Communications"
+    image: "/assets/img/team/external1.jpg"
+  - name: "Sam Fansler"
+    degree: "PhD Student, 2023-2024"
+    role: "External Communications"
+    image: "/assets/img/team/external2.jpg"
+
+faculty_advisors:
+  - name: "Michael Rosenblum"
+    degree: "Professor, Biostatistics"
+    role: "Faculty Advisor"
+    image: "/assets/img/team/advisor1.jpg"
+  - name: "Advisor 2"
+    degree: "Professor, Biostatistics"
+    role: "Faculty Advisor"
+    image: "/assets/img/team/advisor2.jpg"
+

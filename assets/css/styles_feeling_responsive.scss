@@ -1,0 +1,140 @@
+---
+# Only the main Sass file needs front matter, rest is included from site.sass.sass_dir
+sitemap:
+  exclude: true
+---
+@charset "utf-8";
+
+@import "functions.scss";
+@import "01_settings_colors.scss";
+@import "02_settings_typography.scss";
+@import "03_settings_mixins_media_queries.scss";
+@import "04_settings_global.scss";
+@import "05_normalize.scss"; // normalize.css v3.0.2
+
+@import "foundation-components/top-bar";
+@import "foundation-components/accordion";
+@import "foundation-components/alert-boxes";
+@import "foundation-components/breadcrumbs";
+@import "foundation-components/block-grid";
+@import "foundation-components/button-groups";
+@import "foundation-components/buttons";
+@import "foundation-components/clearing";
+@import "foundation-components/dropdown";
+@import "foundation-components/dropdown-buttons";
+@import "foundation-components/flex-video";
+@import "foundation-components/forms";
+@import "foundation-components/grid";
+@import "foundation-components/inline-lists";
+@import "foundation-components/keystrokes";
+@import "foundation-components/panels";
+@import "foundation-components/reveal";
+@import "foundation-components/side-nav";
+@import "foundation-components/sub-nav";
+@import "foundation-components/tables";
+@import "foundation-components/thumbs";
+@import "foundation-components/top-bar";
+@import "foundation-components/type";
+@import "foundation-components/visibility";
+
+@import "06_typography.scss";
+@import "07_layout.scss";
+@import "foundation-components/grid";
+@import "09_elements.scss";
+
+{% if site.asciidoctor-enabled == true %}
+@import "10_asciidoc.scss";
+{% endif %}
+
+@import "11_syntax-highlighting.scss";
+
+/* Custom CSS */
+
+/* Small vertical gap utility */
+.small-gap { margin-bottom: 0.25rem; }
+
+/* Site masthead (blue band with logo) */
+body > header {
+  text-align: center;
+  background-color: #002d72;        /* JHU blue */
+  padding: 0.75rem 0 2rem;
+  min-height: 200px;
+  position: relative;
+  z-index: 0;
+  pointer-events: none;              /* header won’t block clicks below */
+}
+
+/* Logo container (right-aligned) */
+#logo {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+  margin-top: -40px;
+  pointer-events: auto;              /* keep logo clickable */
+}
+
+/* Logo image sizing */
+#logo img {
+  max-height: 150px;
+  height: auto;
+  width: auto;
+  display: block;
+  pointer-events: auto;
+}
+
+/* Reset page/article headers (e.g., “Projects”) */
+article > header {
+  background: transparent !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+}
+
+/* Ensure navigation sits above masthead */
+.top-bar,
+header .navigation,
+.contain-to-grid {
+  position: relative;
+  z-index: 1000;
+}
+
+/* Hide the frontpage hero band */
+#header-home {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+/* Consistent spacing below the site header */
+#main,
+main#main,
+#content {
+  padding-top: 2rem !important;      /* adjust 1.5–2.5rem if needed */
+}
+
+/* Prevent first heading margin from collapsing upward */
+#main { overflow: auto; }            /* alt: border-top: 1px solid transparent */
+
+/* Footer credits: smaller and centered */
+#footer .credits {
+  font-size: 0.5rem !important;
+  opacity: 0.85 !important;
+  margin-top: 0.5rem !important;
+  text-align: center !important;
+}
+
+/* Footer logo: larger */
+#footer .footer-logo {
+  max-height: 100px !important;
+  height: auto !important;
+  width: auto !important;
+}
+
+/* Keep Foundation’s hamburger (needs <span>) but hide the label text */
+.toggle-topbar.menu-icon a span {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -9999px;
+  line-height: 0;
+}

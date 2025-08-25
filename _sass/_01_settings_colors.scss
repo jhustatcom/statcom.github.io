@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* TOC – Color Variables
+
+- Basics
+- Corporate Identity Colorpalette
+- Foundation Color Variables
+- Grey Scale
+- Topbar-Navigation
+- Footer
+- Code
+
+*/
+
+
+
+/* Basics
+------------------------------------------------------------------- */
+
+$text-color:       	#111;
+$body-font-color: 	$text-color;
+$body-bg: 			#ffffff;
+
+
+
+/* Corporate Identity Colorpalette
+   https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
+------------------------------------------------------------------- */
+
+$ci-1: #082c74; // JHU branded navy
+$ci-2: #669f74;		// green
+$ci-3: #EFC94C;		// yellow
+$ci-4: #E27A3F;		// orange
+$ci-5: #DF4949;		// red
+$ci-6: #ACE1AF;     // green
+
+
+
+/* Foundation Color Variables
+------------------------------------------------------------------- */
+
+$primary-color: $ci-1;
+$secondary-color: $ci-6;
+$alert-color: $ci-5;
+$success-color: $ci-6;
+$warning-color: $ci-4;
+$info-color: $ci-1;
+
+
+
+/* Grey Scale
+------------------------------------------------------------------- */
+
+$grey-1: #E4E4E4;
+$grey-2: #D7D7D7;
+$grey-3: #CBCBCB;
+$grey-4: #BEBEBE;
+$grey-5: #A4A4A4;
+$grey-6: #979797;
+$grey-7: #8B8B8B;
+$grey-8: #7E7E7E;
+$grey-9: #646464;
+$grey-10: #575757;
+$grey-11: #4B4B4B;
+$grey-12: #3E3E3E;
+$grey-13: #313131;
+$grey-14: #242424;
+$grey-15: #171717;
+$grey-16: #0B0B0B;
+
+
+
+/* Topbar-Navigation
+------------------------------------------------------------------- */
+
+/* Topbar-Navigation
+------------------------------------------------------------------- */
+
+$topbar-bg-color: $body-bg;         // keep navbar background white
+$topbar-bg: $topbar-bg-color;
+
+$topbar-dropdown-toggle-color: $ci-1;
+
+$topbar-link-color: #000;           // normal (on white)
+$topbar-link-color-hover: #fff;     // when the pill appears on hover
+$topbar-link-color-active: #fff;    // active tab text on navy
+$topbar-link-color-active-hover: #fff;
+
+$topbar-dropdown-label-color: $ci-1;
+$topbar-dropdown-link-bg-hover: lighten($ci-1, 8%);
+
+$topbar-link-bg-active: $ci-1;
+$topbar-link-bg-hover:  $ci-1;
+$topbar-link-bg-active-hover: lighten($ci-1, 6%);
+
+/* mobile menu */
+$topbar-dropdown-bg: $body-bg;
+$topbar-dropdown-link-color: #000;
+$topbar-dropdown-link-bg: $body-bg;
+
+$topbar-menu-link-color-toggled: $ci-1;
+$topbar-menu-icon-color-toggled: $ci-1;
+$topbar-menu-link-color: #000;
+$topbar-menu-icon-color: #000;
+
+
+
+/* Footer
+------------------------------------------------------------------- */
+
+$footer-bg: $ci-1;
+$footer-color: #fff;
+$footer-link-color: #fff;
+
+
+$subfooter-bg: $ci-1;
+$subfooter-color: #fff;
+$subfooter-link-color: #fff;
