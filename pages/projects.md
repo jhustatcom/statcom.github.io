@@ -4,12 +4,6 @@ title: "Projects"
 permalink: /projects/
 ---
 
----
-layout: page-fullwidth
-title: "Projects"
-permalink: /projects/
----
-
 ## Independent Autopsy Findings <small>(Fall 2025)</small>
 
 **Partner:** [Know Your Rights Camp – Autopsy Initiative](https://www.knowyourrightscamp.org/autopsyinitiative)  
