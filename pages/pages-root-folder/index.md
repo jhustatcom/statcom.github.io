@@ -54,6 +54,3 @@ STATCOM@JHU is a graduate student organization in the Department of Biostatistic
     </ul>
   </div>
 </div>
-
-
-Learn more about our [team](/statcom.github.io/team/), explore our [projects](/statcom.github.io/projects/), or [contact us](/statcom.github.io/contact/) to collaborate.
