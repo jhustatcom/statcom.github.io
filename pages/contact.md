@@ -7,14 +7,12 @@ permalink: "/contact/"
 <div class="row">
   <div class="small-12 columns">
     <p>
-      <strong>Nonprofits:</strong> For interest in free statistical consulting from STATCOM@JHU, fill out our 
-      <a href="https://REPLACE_WITH_GOOGLE_FORM_URL" target="_blank" rel="noopener">project intake form</a>.
-    </p>
-
-    <p>
-      <strong>Biostatistics Students:</strong> Volunteer with us by completing the
-      <a href="https://REPLACE_WITH_GOOGLE_FORM_URL" target="_blank" rel="noopener">interest form</a>.
+      Interest forms for free statistical consulting from STATCOM@JHU or volunteer opportunities for <strong>Spring 2026</strong> will be available soon. 
+      In the meantime, please contact STATCOM co-presidents 
+      <a href="mailto:cchou24@jh.edu">Cassie Chou</a> (<code>cchou24@jh.edu</code>) and 
+      <a href="mailto:mherna55@jhmi.edu">Marina Hernandez</a> (<code>mherna55@jhmi.edu</code>) with any questions.
     </p>
   </div>
 </div>
+
 
